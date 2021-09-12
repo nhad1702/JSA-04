@@ -29,11 +29,21 @@
 // console.log(remainder(5, 5));
 
 
-function findPerimeter(e, f) {
-    let peri = (e + f) * 2;
-    return peri;
+// function findPerimeter(e, f) {
+//     let peri = (e + f) * 2;
+//     return peri;
+// }
+
+// console.log(findPerimeter(6, 7));
+// console.log(findPerimeter(20, 10));
+// console.log(findPerimeter(2, 9));
+
+
+function givmesth(h) {
+    let note = "something " + givmesth;
+    return note;
 }
 
-console.log(findPerimeter(6, 7));
-console.log(findPerimeter(20, 10));
-console.log(findPerimeter(2, 9));
+console.log(givmesth("is better than nothing"));
+console.log(givmesth("Bob Jane"));
+console.log(givmesth("something"));
