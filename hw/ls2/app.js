@@ -1,62 +1,69 @@
-// console.log('Hello C4E!'); //console log
+function remainder(a, b) {
+    let div = a % b;
+    return div;
+}
 
-// Math.random(); //methods (Math: library)
 
-//6->23: data types
-// let a = 4;
-// let b = 8;
-// let c = 1516;
-// let d = 23.42;
 
-// let sing = 'Who are you?';
-// let doub = "Who am I?";
+function findPerimeter(a, b) {
+    let peri = (a + b) * 2;
+    return peri;
+}
 
-// let latetoSchool = true;
 
-// let x = null;
 
-// let person = {
-//     fisrtname: "Anh",
-//     lastname: "Duc",
-//     age: "16",
-//     school: "Trung Vuong High School",
-// }
+function points(a, b) {
+    let sum = (a * 2) + (b * 3);
+    return sum;
+}
 
-//exercise
-// console.log('JavaScript');
-// console.log(2020);
-// console.log("Woohoo! I love to code.");
-// console.log(4.4);
 
-//Arithmetic Operations
 
-//String Interpolation
-// let age = 7;
 
-// console.log('Tommy is ' + age + ' years old.'); //Noi chuoi
-// console.log(`Tommy is ${age} years old.`); //Noi suy chuoi (??)
+function animals(a, b, c) {
+    let ani = (a * 2) + (b * 4) + (c * 4);
+    return ani;
+}
 
-//Variables
-// const currency = `$`;
-// let UserIncome = 85000;
 
-// console.log(currency + UserIncome + ' is more than the average income.');
 
-//examples
-// let Name = 'Tommy';
-// const found = 'false';
-// var age1 = 3;
 
-// console.log(Name, found, age1);
+function footballPoints(a, b, c) {
+    let football = (a * 3) + (b * 1) + (c * 0);
+    return football;
+}
 
-//String Concatenation
-// let service = 'credit card';
-// let month = 'May 30th';
-// let display = 'Your ' + service + ' bill is due to ' + month + '.';
-// console.log(display);
 
-//Tenplate Literals
-// let fullname = "Nguyen Huu Anh Duc";
-// console.log(`Hello, ${fullname}`);
 
-// console.log(`Duc is ${12 + 4} years old.`);
+function sumPolygon(n) {
+    let sum = (n - 2) * 180;
+    return sum;
+}
+
+
+
+
+function calculateFuel(a) {
+    let fuel = a * 10;
+    return fuel;
+}
+
+var result = calculateFuel > 100 ? `${fuel}` : 100;
+console.log(result);
+//chỗ này em đang bị sai có gì anh contri giúp em chỗ sai nha :3
+
+
+
+function yearsInOneHouse(a, b) {
+    let years = a / (b + 1);
+    return years;
+}
+
+
+
+function frames(a, b) {
+    let fps = a * b * 60;
+    return fps;
+}
+
+

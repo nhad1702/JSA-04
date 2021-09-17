@@ -39,11 +39,15 @@
 // console.log(findPerimeter(2, 9));
 
 
-function givmesth(h) {
-    let note = "something " + h;
-    return note;
-}
+// function givmesth(h) {
+//     let note = "something " + h;
+//     return note;
+// }
 
-console.log(givmesth("is better than nothing"));
-console.log(givmesth("Bob Jane"));
-console.log(givmesth("something"));
+// console.log(givmesth("is better than nothing"));
+// console.log(givmesth("Bob Jane"));
+// console.log(givmesth("something"));
+
+//____________________________________//
+
+
