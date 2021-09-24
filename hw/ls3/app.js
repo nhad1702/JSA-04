@@ -56,16 +56,16 @@
 //     }
 // }
 
-function lastDig(a, b, c) {
-    let a1 = a % 10;
-    let b1 = b % 10;
-    let c1 = c % 10;
+// function lastDig(a, b, c) {
+//     let a1 = a % 10;
+//     let b1 = b % 10;
+//     let c1 = c % 10;
 
-    let sum = a1 * b1;
+//     let sum = a1 * b1;
 
-    if (sum == c1) {
-        return true;
-    } else {
-        return false;
-    }
-}
+//     if (sum == c1) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
