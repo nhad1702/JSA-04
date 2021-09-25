@@ -16,7 +16,7 @@
 // function pHName(a) {
 //     if (a >= 0 && a < 7) {
 //         return "Acid";
-//     } else if (a = 7) {
+//     } else if (a == 7) {
 //         return "Neutral";
 //     } else if (a > 7 && a <= 14) {
 //         return "Alkaline";
