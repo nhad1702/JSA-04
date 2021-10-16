@@ -56,5 +56,5 @@ sumMinimums([
 //Còn hơi mơ mơ =))
 
 function freeShipping(arr) {
-
+    let
 }
