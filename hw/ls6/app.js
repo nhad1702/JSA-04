@@ -36,25 +36,41 @@
 // console.log(dif([1, 2, 3, 5], [1, 2, 3, 4, 5]));
 // diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
 
-function sumMinimums(arr) {
-    let newNum = [];
-    for (var i in sumMinimums[arr]) {
-        if (i == Math.min[arr]) {
-            newNum.push[i];
-        }
-    }
-    let sum = [];
-    sum += newNum;
-    return sum;
-}
+// function sumMinimums(arr) {
+//     let newNum = [];
+//     for (var i in sumMinimums[arr]) {
+//         if (i == Math.min[arr]) {
+//             newNum.push[i];
+//         }
+//     }
+//     let sum = [];
+//     sum += newNum;
+//     return sum;
+// }
 
-sumMinimums([
-    [1, 2, 3, 4, 5],
-    [5, 6, 7, 8, 9],
-    [20, 21, 34, 56, 100]
-]);
+// sumMinimums([
+//     [1, 2, 3, 4, 5],
+//     [5, 6, 7, 8, 9],
+//     [20, 21, 34, 56, 100]
+// ]);
 //Còn hơi mơ mơ =))
 
 function freeShipping(arr) {
-    let
+    // for (i = 0; i < arr.length; i++) {
+    //     console.log(arr[i]);
+    // }
+
+    let sum = 0;
+    for (let total of sum) {
+        sum += total[i];
+        if (sum > 50) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
+
+freeShipping({ "Shampoo": 5.99, "Rubber Ducks": 15.99 });
+freeShipping({ "Flatscreen TV": 399.99 });
+freeShipping({ "Monopoly": 11.99, "Secret Hitler": 35.99, "Bananagrams": 13.99 });
