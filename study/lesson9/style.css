@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.in {
+    border: none;
+}
+
+.btn {
+    border: none;
+}
+
+#todos {
+    width: 30%;
+    background-color: gray;
+    padding: 10px 25px;
+    color: white;
+}
+
+.done {
+    text-decoration: line-through;
+    color: red;
+}

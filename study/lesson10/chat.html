@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body class="w-screen h-screen bg-blue-400">
+    <button id="logout">Logout</button>
+    <div class="flex flex-col w-1/2 h-screen bg-white mx-auto p-8">
+        <ul id="msgContainer">
+
+        </ul>
+        <form class="w-full mb-0 mt-auto" id="myForm">
+            <input name="messageValue" type="text" placeholder="Enter your message"
+                class="w-full border py-2 px-4 rounded-full">
+            <button type="submit" class="hidden">submit</button>
+        </form>
+    </div>
+    <script src="./js/firebase.js" type="module"></script>
+    <script src="./js/chat.js" type="module"></script>
+</body>
+
+</html>
