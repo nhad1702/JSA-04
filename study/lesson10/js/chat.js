@@ -18,7 +18,13 @@ import { renderMessages, getUserFromLocalStorage } from "./helper.js";
 import { saveMessageToCollection } from "./firebase-helper.js";
 // import { mockData } from "./mockData.js";
 
+const auth = getAuth();
+
+const currentUser = getUserFromLocalStorage();
+const senderId = currentUser.uid;
+
 const msgContainer = document.getElementById("msgContainer");
+
 function subcribeMessages() {
     onSnapshot(messageRef, (docs) => {
         let messageData = [];
