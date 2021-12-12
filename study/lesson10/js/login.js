@@ -5,7 +5,7 @@ import {
     onAuthStateChanged,
 } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-auth.js";
 
-import { saveUserToLocalStorage, getUserFromLocalStorage } from "./helper.js";
+import { saveUserToLocalStorage } from "./helper.js";
 
 const logInGoogleAccountButton = document.getElementById("logInGoogleAccount");
 const auth = getAuth();
@@ -34,11 +34,3 @@ function onAuthenticationListener(user) {
 logInGoogleAccountButton.addEventListener("click", signInWithGoogleAccount);
 
 onAuthStateChanged(auth, onAuthenticationListener);
-
-const currentUser = getUserFromLocalStorage();
-console.log(currentUser);
-
-if (currentUser) {
-    console.log("Login");
-    window.location.href = `./chat.html?uid=${currentUser.uid}`;
-}
